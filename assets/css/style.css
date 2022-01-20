@@ -551,14 +551,17 @@ section {
 .featured {
   position: relative;
   z-index: 2;
+  display: flex;
+  flex-wrap: nowrap;
 }
 .featured .icon-box {
-  padding: 40px 30px;
+  padding: 40px 20px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   background: #fff;
   transition: all ease-in-out 0.3s;
   height: 100%;
+  width: 70%;
 }
 .featured .icon-box i {
   color: #e96b56;
@@ -712,30 +715,39 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts .count-box {
-  box-shadow: -10px -5px 40px 0 rgba(0, 0, 0, 0.1);
   padding: 30px;
   width: 100%;
 }
 .counts .count-box i {
   display: block;
-  font-size: 30px;
+  font-size: 35px;
   color: #e96b56;
-  float: left;
+  /* float: left; */
   line-height: 0;
+  align-items: center;
+  /* margin-right: 42%;
+  margin-left: 42%; */
+  padding-bottom: 5%;
 }
-.counts .count-box span {
+/* .counts .count-box span {
   font-size: 42px;
   line-height: 24px;
   display: block;
   font-weight: 700;
   color: #545454;
   margin-left: 50px;
-}
+} */
 .counts .count-box p {
-  padding: 30px 0 0 0;
+  padding: 10px 0 0 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
+}
+.counts .count-box h5 {
+  /* padding-left: 26%; */
+  /* padding-right: 10%; */
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
 }
 .counts .count-box a {
   font-weight: 600;
