@@ -1945,11 +1945,11 @@ section {
 #footer .copyright {
   color:#404040;
   text-align: center;
-  padding-top: 30px;
+  /* padding-top: 30px; */
 }
 #footer .credits {
   color:#404040;
-  padding-top: 10px;
+  /* padding-top: 10px; */
   text-align: center;
   font-size: 13px;
 }
