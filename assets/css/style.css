@@ -712,6 +712,59 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.counts1 .count1-box {
+  padding: 30px;
+  width: 100%;
+}
+.counts1 .count-box1 i {
+  display: block;
+  font-size: 35px;
+  color: #e96b56;
+  /* float: left; */
+  line-height: 0;
+  align-items: center;
+  /* margin-right: 42%;
+  margin-left: 42%; */
+  padding-bottom: 5%;
+}
+
+/* .counts .count-box span {
+  font-size: 42px;
+  line-height: 24px;
+  display: block;
+  font-weight: 700;
+  color: #545454;
+  margin-left: 50px;
+} */
+.counts1 .count-box1 p {
+  padding: 10px 0 0 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+.counts1 .count-box1 h5 {
+  /* padding-left: 26%; */
+  /* padding-right: 10%; */
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+.counts1 .count-box1 a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #7a7a7a;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: ease-in-out 0.3s;
+}
+.counts1 .count-box1 a:hover {
+  color: #a1a1a1;
+}
+
+
+/*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
 .counts .count-box {
@@ -729,6 +782,7 @@ section {
   margin-left: 42%; */
   padding-bottom: 5%;
 }
+
 /* .counts .count-box span {
   font-size: 42px;
   line-height: 24px;
@@ -1746,7 +1800,6 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #404040;
-  padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
@@ -1879,12 +1932,13 @@ section {
   line-height: 26px;
 }
 #footer .copyright {
+  color:#404040;
   text-align: center;
   padding-top: 30px;
 }
 #footer .credits {
+  color:#404040;
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #fff;
 }
