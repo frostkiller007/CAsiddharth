@@ -11,6 +11,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -1382,7 +1384,7 @@ section {
 # Blog
 --------------------------------------------------------------*/
 .blog {
-  padding: 40px 0 20px 0;
+  /* padding: 40px 0 20px 0; */
 }
 .blog .entry {
   padding: 30px;
@@ -1399,10 +1401,12 @@ section {
   font-weight: bold;
   padding: 0;
   margin: 0 0 20px 0;
+  text-align: center;
 }
 .blog .entry .entry-title a {
-  color: #545454;
+  color: #e96b56;
   transition: 0.3s;
+  text-align: center;
 }
 .blog .entry .entry-title a:hover {
   color: #e96b56;
@@ -1453,9 +1457,16 @@ section {
   background: #ec7f6d;
 }
 .blog .entry .entry-content h3 {
+  color: #e96b56;
   font-size: 22px;
   margin-top: 30px;
   font-weight: bold;
+}
+.blog .entry .entry-content h8 {
+  font-size: 18px;
+  margin-top: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 .blog .entry .entry-content blockquote {
   overflow: hidden;
