@@ -716,13 +716,56 @@ section {
 }
 .clients .swiper-slide img {
   opacity: 0.5;
-  transition: 0.3s;
-  filter: grayscale(100);
+  width: 60%;
 }
 .clients .swiper-slide img:hover {
   filter: none;
   opacity: 1;
 }
+.clients .icons {
+  font-size: 200%;
+  /* align-items: center; */
+  text-align: center;
+}
+.clients .btn-client {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #e96b56;
+  background: #e96b56;
+}
+
+.clients .btn-client:hover {
+  background: transparent;
+  color: #e96b56;
+  text-decoration: none;
+}
+
+.clients .btn-client a {
+  font-size: 18px;
+  display: inline-block;
+  background: #545454;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+
 
 /*--------------------------------------------------------------
 # Services
