@@ -1276,6 +1276,10 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact{
+  display: flex;
+}
+
 .contact .info-box {
   color: #444444;
   text-align: center;
@@ -1872,15 +1876,15 @@ section {
   background: #3b3b3b;
   border-top: 1px solid #474747;
   border-bottom: 1px solid #474747;
-  padding: 60px 0 30px 0;
+  padding: 30px 0 0px 0;
 }
 #footer .footer-top .footer-info {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 #footer .footer-top .footer-info h3 {
   font-size: 18px;
   margin: 0 0 20px 0;
-  padding: 2px 0 2px 0;
+  /* padding: 2px 0 2px 0; */
   line-height: 1;
   font-weight: 700;
 }
