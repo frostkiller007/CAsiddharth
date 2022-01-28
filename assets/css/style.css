@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown .dropdown ul {
   top: 0;
   left: calc(100% - 30px);
-  visibility: hidden;
+  visibility: visible;
 }
 .navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
@@ -227,9 +227,9 @@ h1, h2, h3, h4, h5, h6 {
   left: 100%;
   visibility: visible;
 }
-@media (max-width: 1366px) {
+@media (max-width: 1920px) {
   .navbar .dropdown .dropdown ul {
-    left: -90%;
+    left: -100%;
   }
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
