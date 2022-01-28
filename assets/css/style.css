@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 100%;
   visibility: visible;
 }
-@media (max-width: 1920px) {
+@media screen and (max-width: 1920px) {
   .navbar .dropdown .dropdown ul {
     left: -100%;
   }
